@@ -34,7 +34,7 @@ namespace Assignment1
             //Method 2: nested short hand if (ternary operator)
             //finalAmount = (billAmount >= 500) ? billAmount * 0.8: (billAmount < 500 && billAmount >= 300) ? billAmount*0.9 : billAmount;
 
-            Console.WriteLine("Your Final Bill after {0}% discount is {1}",discount,finalAmount);//string manipulation 
+            Console.WriteLine("Your Final Bill after {0}% discount is {1}",discount,finalAmount);//string format
 
         }
     }
