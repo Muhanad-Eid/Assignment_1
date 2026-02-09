@@ -9,7 +9,7 @@ namespace Assignment1
 Enter Bill Amount then press Enter");//@ allow multiline string no need for \n
             double billAmount=Convert.ToDouble(Console.ReadLine());
             double finalAmount;
-            int discount=0;//d
+            int discount=0;
             //Method 1: if else
             if (billAmount < 0)//validation
             {
