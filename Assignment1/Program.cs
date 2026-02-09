@@ -5,7 +5,7 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {   
-            Console.WriteLine(@"welcome to our store
+            Console.WriteLine(@"welcome to K3K stores
 Enter Bill Amount then press Enter");//@ allow multiline string no need for \n
             double billAmount=Convert.ToDouble(Console.ReadLine());
             double finalAmount;
